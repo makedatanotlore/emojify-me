@@ -11,8 +11,9 @@
   - 🗒️ One multiline input field **on the left** that the user can write text into
   - 🗒️ One multiline input field **on the right** that displays the text from the other input with matching words replaced with emoji from [emoji.json](src/utils/emoji.json)
 - 🕹️ Put your emojify function in [src/utils/emojify.ts](src/utils/emojify.ts)
-- 🕹️ The text should not be emojified until the user presses an "Emojify!" button
+- 🕹️ The output should update live as the user types (debounced)
 - 🕹️ The area with the emojified text should not be editable
+- 🕹️ The input text should be reflected in the URL so the page can be shared and will pre-fill the input on load
 
 ## Example
 
@@ -27,5 +28,4 @@
 ## Hey, listen! (bonus points)
 
 - 🚨 Verify your emojify function with the [tests](src/utils/emojify.test.ts)!
-- ✋ The button should be disabled until the user has typed at least one character
 - 📝 The app should be styled
